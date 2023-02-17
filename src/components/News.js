@@ -31,7 +31,7 @@ const News = (props) => {
   useEffect(() => {
     document.title = `${capitalizeFirstLetter(props.category)} - NewsMonkey`;
     updateNews();
-    // eslint-disable-line
+    //eslint-disable-next-line
   }, []);
   // FUNCTION FOR NEXT & PREVIOUS BUTTON
   // const handlePrevClick = async () => {
